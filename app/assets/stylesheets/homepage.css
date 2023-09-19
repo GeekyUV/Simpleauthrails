@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.login-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent white background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the box */
+}
+
+.login-heading {
+    font-size: 40px; /* Larger font size */
+    color: white; /* White text color */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 18px;
+    color: white; /* White text color */
+}
+
+.form-submit {
+    font-size: 18px;
+    color: white; /* White text color */
+    background-color: #007BFF; /* Blue button background color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
